@@ -1,9 +1,5 @@
 ﻿Data types in python 
 
-**ChatGPT said:**
-
-ChatGPT
-
 Python provides a wide range of data types to accommodate various kinds of data. These data types can be broadly categorized as **basic (primitive)** and **complex (non-primitive)**.
 
 -----
