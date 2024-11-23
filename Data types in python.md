@@ -64,12 +64,12 @@ Python provides a wide range of data types to accommodate various kinds of data.
 
 |**Category**|**Data Type**|**Example**|
 | :- | :- | :- |
-|Basic|int|a = 5|
+|Primitive|int|a = 5|
 ||float|b = 5.5|
 ||complex|c = 1 + 2j|
 ||bool|is\_valid = True|
 ||str|name = "Alice"|
-|Complex|list|nums = [1, 2, 3]|
+|Non Primitive|list|nums = [1, 2, 3]|
 ||tuple|t = (1, 2)|
 ||set|s = {1, 2, 3}|
 ||dict|d = {"a": 1, "b": 2}|
