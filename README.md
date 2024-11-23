@@ -1,8 +1,9 @@
 # 🚀 Python and DSA Learning Journey 🚀  
 
-                                                ![image](https://github.com/user-attachments/assets/40dcf18e-f830-4190-a18f-62ad4bebd12a)
+                                                ![image](https://github.com/user-attachments/assets/d7718b54-ff6d-4ee7-b459-0b0094f86528)
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Mastering+Python+%26+DSA;Focusing+on+Core+Concepts+%26+Problem+Solving)
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Mastering+Python+%26+DSA;FFocusing+on+Core+Concepts+%26+Problem+Solving)
 
 ---
 
@@ -74,15 +75,6 @@ I'm **Dinesh Kumar**, a Junior Data Scientist and AI enthusiast, diving deeper i
 
 ---
 
-## 🧰 **Resources I'm Using**
-- 📘 **Books**:  
-  - *Python Crash Course* by Eric Matthes  
-  - *DSA Made Easy* by Narasimha Karumanchi  
-
-- 🌐 **Online Platforms**:  
-  - LeetCode, HackerRank, GeeksforGeeks  
-  - YouTube: CodeWithHarry, NeetCode, freeCodeCamp  
-
 - 🔧 **Tools**:  
   - Jupyter Notebook, VSCode, Git for version control  
 
@@ -115,7 +107,6 @@ By the end of this journey, I aim to:
 1. Develop a solid foundation in **Python programming** and **OOP**.  
 2. Solve **50+ DSA problems** with clear solutions and optimizations.  
 3. Implement and master **sorting algorithms** like Merge Sort, Quick Sort, Insertion Sort, Selection Sort, and Bubble Sort.  
-4. Build a **mini-project** to demonstrate Python and DSA integration.  
 
 ![Coding Animation](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
 
