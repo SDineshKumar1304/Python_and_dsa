@@ -30,7 +30,15 @@ I'm **Dinesh Kumar**, a Junior Data Scientist and AI enthusiast, diving deeper i
 ### 🧮 **Data Structures & Algorithms (DSA) is totlly using OOPs Concepts**  
 - **Stack**:  
   - 🔄 Balanced Parentheses, Evaluate Postfix Expression  
-  - 🔄 Implementing Stack Using Arrays or Lists  
+  - 🔄 Implementing Stack Using Arrays or Lists
+    
+- 🧑‍🏫 **Sorting Algorithms**  
+Mastering the following **sorting algorithms** and understanding their complexities:  
+- **Merge Sort** (Divide and Conquer)  
+- **Quick Sort** (Divide and Conquer)  
+- **Insertion Sort** (Simple but inefficient for large datasets)  
+- **Selection Sort** (Inefficient for large datasets, but good for small arrays)  
+- **Bubble Sort** (Simple, but inefficient for large arrays)
 
 - **Queue**:  
   - 🔄 Implementing Queue and Circular Queue  
