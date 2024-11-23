@@ -1,5 +1,8 @@
 # 🚀 Python and DSA Learning Journey 🚀  
 
+![image](https://github.com/user-attachments/assets/40dcf18e-f830-4190-a18f-62ad4bebd12a)
+
+
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Mastering+Python+%26+DSA;FFocusing+on+Core+Concepts+%26+Problem+Solving)  
 
 ---
@@ -24,7 +27,7 @@ I'm **Dinesh Kumar**, a Junior Data Scientist and AI enthusiast, diving deeper i
 - 💡 Polymorphism (Overloading and Overriding)  
 - 💡 Encapsulation and Abstraction  
 
-### 🧮 **Data Structures & Algorithms (DSA)**  
+### 🧮 **Data Structures & Algorithms (DSA) is totlly using OOPs Concepts**  
 - **Stack**:  
   - 🔄 Balanced Parentheses, Evaluate Postfix Expression  
   - 🔄 Implementing Stack Using Arrays or Lists  
