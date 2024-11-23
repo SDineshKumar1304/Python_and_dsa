@@ -1,6 +1,6 @@
 # 🚀 Python and DSA Learning Journey 🚀  
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Mastering+Python+%26+DSA;Focusing+on+Core+Concepts+%26+Problem+Solving)  
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Mastering+Python+%26+DSA;FFocusing+on+Core+Concepts+%26+Problem+Solving)  
 
 ---
 
