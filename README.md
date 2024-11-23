@@ -1,7 +1,8 @@
 # 🚀 Python and DSA Learning Journey 🚀  
 
-                                                ![image](https://github.com/user-attachments/assets/d7718b54-ff6d-4ee7-b459-0b0094f86528)
+ ![image](https://github.com/user-attachments/assets/38b7c4f4-c041-4216-8bc0-b79c4eca64a2)
 
+---
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=Mastering+Python+%26+DSA;FFocusing+on+Core+Concepts+%26+Problem+Solving)
 
@@ -89,8 +90,8 @@ I'm **Dinesh Kumar**, a Junior Data Scientist and AI enthusiast, diving deeper i
 | 🧮 Two Pointers      | 10              | Improved problem-solving speed with two-pointer technique. |
 | 🔍 Sliding Window    | 12              | Mastered optimizing subarray problems.            |
 | 📖 Dictionary        | 8               | Solved anagram and frequency-based problems.      |
-| 🔗 Linked List       | 12              | Understood reversing and merging linked lists.    |
-| 🧩 Sorting Algorithms | 5               | Implemented Merge Sort, Quick Sort, Insertion Sort, Selection Sort, and Bubble Sort. |
+| 🔗 Linked List       | 5              | Understood reversing and merging linked lists.    |
+| 🧩 Sorting Algorithms | 12               | Implemented Merge Sort, Quick Sort, Insertion Sort, Selection Sort, and Bubble Sort. |
 
 ---
 
