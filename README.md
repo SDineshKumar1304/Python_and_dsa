@@ -55,15 +55,6 @@ I'm **Dinesh Kumar**, a Junior Data Scientist and AI enthusiast, diving deeper i
 
 ---
 
-## 🧰 **Resources I'm Using**  
-- 📘 **Books**:  
-  - *Python Crash Course* by Eric Matthes  
-  - *DSA Made Easy* by Narasimha Karumanchi  
-
-- 🌐 **Online Platforms**:  
-  - LeetCode, HackerRank, GeeksforGeeks  
-  - YouTube: CodeWithHarry, NeetCode, freeCodeCamp  
-
 - 🔧 **Tools**:  
   - Jupyter Notebook, VSCode, Git for version control  
 
@@ -94,12 +85,9 @@ I'm open to discussions, collaborations, or sharing insights!
 By the end of this journey, I aim to:  
 1. Develop a solid foundation in **Python programming** and **OOP**.  
 2. Solve **50+ DSA problems** with clear solutions and optimizations.  
-3. Build a **mini-project** to demonstrate Python and DSA integration.  
 
 ![Coding Animation](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)  
 
 ---
 
 Stay tuned for updates, and feel free to share tips or resources! 🚀
-
-![image](https://github.com/user-attachments/assets/0a1b0b05-c52f-4837-b78e-95477170f600)
