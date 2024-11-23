@@ -84,24 +84,17 @@ Python provides a wide range of data types to accommodate various kinds of data.
 
 These types allow Python to be versatile and suitable for handling a wide variety of applications.
 
-4o
 
 **You said:**
 
 Dynamic input of all data types 
-
-**ChatGPT said:**
-
-ChatGPT
 
 In Python, you can take **dynamic input** for various data types by processing user input using the input() function and converting it to the desired type. Here's how you can handle dynamic input for all common Python data types:
 
 -----
 **1. Integer Input (int)**
 
-python
 
-Copy code
 
 num = int(input("Enter an integer: "))
 
@@ -110,9 +103,7 @@ print(f"Integer: {num}, Type: {type(num)}")
 -----
 **2. Float Input (float)**
 
-python
 
-Copy code
 
 flt = float(input("Enter a floating-point number: "))
 
@@ -121,9 +112,7 @@ print(f"Float: {flt}, Type: {type(flt)}")
 -----
 **3. String Input (str)**
 
-python
 
-Copy code
 
 string = input("Enter a string: ")
 
@@ -134,9 +123,6 @@ print(f"String: {string}, Type: {type(string)}")
 
 Since input() returns a string, you can convert it to a Boolean using a conditional check:
 
-python
-
-Copy code
 
 bool\_input = input("Enter True or False: ").strip().lower()
 
@@ -149,9 +135,6 @@ print(f"Boolean: {boolean}, Type: {type(boolean)}")
 
 Input elements separated by spaces and split them into a list:
 
-python
-
-Copy code
 
 lst = input("Enter list elements separated by spaces: ").split()
 
@@ -159,9 +142,7 @@ print(f"List: {lst}, Type: {type(lst)}")
 
 For a list of specific types (e.g., integers):
 
-python
 
-Copy code
 
 int\_list = list(map(int, input("Enter integers separated by spaces: ").split()))
 
@@ -172,9 +153,7 @@ print(f"List of Integers: {int\_list}, Type: {type(int\_list)}")
 
 Similar to a list but converted to a tuple:
 
-python
 
-Copy code
 
 tpl = tuple(input("Enter tuple elements separated by spaces: ").split())
 
@@ -182,9 +161,7 @@ print(f"Tuple: {tpl}, Type: {type(tpl)}")
 
 For a tuple of specific types (e.g., integers):
 
-python
 
-Copy code
 
 int\_tuple = tuple(map(int, input("Enter integers separated by spaces: ").split()))
 
@@ -195,9 +172,7 @@ print(f"Tuple of Integers: {int\_tuple}, Type: {type(int\_tuple)}")
 
 Convert input elements to a set:
 
-python
 
-Copy code
 
 st = set(input("Enter set elements separated by spaces: ").split())
 
@@ -208,9 +183,6 @@ print(f"Set: {st}, Type: {type(st)}")
 
 For key-value pairs, you can split input and process it:
 
-python
-
-Copy code
 
 print("Enter dictionary items in 'key:value' format, separated by spaces.")
 
@@ -222,9 +194,6 @@ print(f"Dictionary: {dictionary}, Type: {type(dictionary)}")
 
 For a dictionary with specific types (e.g., integer values):
 
-python
-
-Copy code
 
 dict\_input = input("Enter dictionary items in 'key:value' format, separated by spaces: ").split()
 
@@ -235,9 +204,7 @@ print(f"Dictionary: {dictionary}, Type: {type(dictionary)}")
 -----
 **9. Complex Number Input (complex)**
 
-python
 
-Copy code
 
 real = float(input("Enter the real part: "))
 
@@ -250,9 +217,7 @@ print(f"Complex Number: {complex\_num}, Type: {type(complex\_num)}")
 -----
 **10. Bytes Input (bytes)**
 
-python
 
-Copy code
 
 byte\_input = input("Enter a string to convert to bytes: ").encode()
 
@@ -263,9 +228,7 @@ print(f"Bytes: {byte\_input}, Type: {type(byte\_input)}")
 
 Here’s an integrated example:
 
-python
 
-Copy code
 
 print("Choose a data type: int, float, str, bool, list, tuple, set, dict, complex, bytes")
 
@@ -329,15 +292,12 @@ if value is not None:
 
 This program allows dynamic input for any Python data type by selecting it at runtime!
 
-4o
 
 **You said:**
 
 How to iterate the values of the data type 
 
-**ChatGPT said:**
 
-ChatGPT
 
 In Python, you can **iterate** over the values of different data types using loops (mainly for loops). However, the method of iteration depends on the type of data you are working with. Here's how you can iterate through the values of different data types:
 
@@ -346,9 +306,7 @@ In Python, you can **iterate** over the values of different data types using loo
 
 Strings are iterable and allow iteration over their characters.
 
-python
 
-Copy code
 
 text = "Hello"
 
@@ -361,9 +319,6 @@ for char in text:
 
 Lists are iterable, and you can loop through their elements.
 
-python
-
-Copy code
 
 numbers = [1, 2, 3, 4, 5]
 
@@ -376,9 +331,6 @@ for num in numbers:
 
 Tuples are also iterable, similar to lists.
 
-python
-
-Copy code
 
 coordinates = (10, 20, 30)
 
@@ -391,9 +343,7 @@ for coord in coordinates:
 
 Sets are unordered, but they are iterable.
 
-python
 
-Copy code
 
 unique\_numbers = {1, 2, 3, 4}
 
@@ -408,9 +358,7 @@ Dictionaries can be iterated in several ways:
 
 - **Keys**:
 
-python
 
-Copy code
 
 person = {"name": "Alice", "age": 25}
 
@@ -420,9 +368,7 @@ for key in person:
 
 - **Values**:
 
-python
 
-Copy code
 
 for value in person.values():
 
@@ -430,9 +376,7 @@ for value in person.values():
 
 - **Key-Value Pairs**:
 
-python
 
-Copy code
 
 for key, value in person.items():
 
@@ -443,9 +387,7 @@ for key, value in person.items():
 
 Ranges can be iterated over as sequences of numbers.
 
-python
 
-Copy code
 
 for i in range(1, 6):
 
@@ -456,9 +398,7 @@ for i in range(1, 6):
 
 You cannot iterate directly over a complex number, but you can access its real and imaginary parts.
 
-python
 
-Copy code
 
 comp = 3 + 4j
 
@@ -471,9 +411,7 @@ for part in [comp.real, comp.imag]:
 
 Bytes are iterable, and you can loop through their integer representations.
 
-python
 
-Copy code
 
 byte\_data = b"Hello"
 
@@ -491,9 +429,6 @@ NoneType cannot be iterated because it has no elements.
 
 You can iterate over multiple values simultaneously using zip.
 
-python
-
-Copy code
 
 names = ["Alice", "Bob"]
 
@@ -508,9 +443,7 @@ for name, age in zip(names, ages):
 
 For indexed iteration (e.g., with lists or strings), use enumerate.
 
-python
 
-Copy code
 
 fruits = ["apple", "banana", "cherry"]
 
@@ -523,9 +456,7 @@ for index, fruit in enumerate(fruits):
 
 You can use conditions inside the loop for selective iteration.
 
-python
 
-Copy code
 
 numbers = [1, 2, 3, 4, 5]
 
@@ -545,7 +476,7 @@ To iterate any data type in Python:
 
 This approach ensures proper iteration for any Python data type.
 
-4o
+
 
 **You said:**
 
@@ -562,9 +493,7 @@ Using a while loop to iterate over data types requires more manual control compa
 
 Iterate through each character of a string using an index.
 
-python
 
-Copy code
 
 text = "Hello"
 
@@ -581,9 +510,7 @@ while i < len(text):
 
 Iterate through each element of a list using an index.
 
-python
 
-Copy code
 
 numbers = [1, 2, 3, 4, 5]
 
@@ -600,9 +527,7 @@ while i < len(numbers):
 
 Tuples are similar to lists, so you can iterate using an index.
 
-python
 
-Copy code
 
 coordinates = (10, 20, 30)
 
@@ -619,9 +544,6 @@ while i < len(coordinates):
 
 Sets are unordered, so you cannot use indexing. Instead, you need to convert the set into a list (or similar) to use a while loop.
 
-python
-
-Copy code
 
 unique\_numbers = {1, 2, 3, 4}
 
@@ -642,9 +564,6 @@ For dictionaries, you can iterate over:
 
 - **Keys**:
 
-python
-
-Copy code
 
 person = {"name": "Alice", "age": 25}
 
@@ -660,9 +579,7 @@ while i < len(keys):
 
 - **Values**:
 
-python
 
-Copy code
 
 values = list(person.values())
 
@@ -676,9 +593,6 @@ while i < len(values):
 
 - **Key-Value Pairs**:
 
-python
-
-Copy code
 
 items = list(person.items())
 
@@ -695,9 +609,7 @@ while i < len(items):
 
 To iterate through a range, use a counter variable.
 
-python
 
-Copy code
 
 start = 1
 
@@ -716,9 +628,6 @@ while i <= end:
 
 You cannot iterate directly over complex numbers, but you can iterate over their parts:
 
-python
-
-Copy code
 
 comp = 3 + 4j
 
@@ -737,9 +646,7 @@ while i < len(parts):
 
 Bytes are iterable, and you can use a while loop to access each byte.
 
-python
 
-Copy code
 
 byte\_data = b"Hello"
 
@@ -759,9 +666,6 @@ If you want to iterate over any iterable data type using a while loop:
 1. Convert the iterable into a list (if necessary).
 1. Use an index to access elements.
 
-python
-
-Copy code
 
 iterable = [1, 2, 3, 4, 5]  # Replace with any iterable (list, tuple, set, etc.)
 
@@ -782,7 +686,6 @@ while i < len(iterable):
 
 This ensures correct iteration for all data types using a while loop.
 
-4o
 
 **You said:**
 
@@ -800,9 +703,7 @@ Python provides two primary types of loops to execute a block of code repeatedly
 - **Purpose**: Used to iterate over a sequence (e.g., list, tuple, string, dictionary, range, etc.).
 - **Syntax**:
 
-python
 
-Copy code
 
 for variable in sequence:
 
@@ -811,9 +712,7 @@ for variable in sequence:
 - **Examples**:
   - Iterating over a list:
 
-python
 
-Copy code
 
 numbers = [1, 2, 3]
 
@@ -823,9 +722,7 @@ for num in numbers:
 
 - Iterating over a string:
 
-python
 
-Copy code
 
 text = "Python"
 
@@ -839,9 +736,6 @@ for char in text:
 - **Purpose**: Used when you need to execute a block of code repeatedly **until a specific condition is met**.
 - **Syntax**:
 
-python
-
-Copy code
 
 while condition:
 
@@ -850,9 +744,7 @@ while condition:
 - **Examples**:
   - Iterating until a condition is false:
 
-python
 
-Copy code
 
 count = 0
 
@@ -869,9 +761,7 @@ while count < 5:
    1. Exits the loop prematurely when a certain condition is met.
    1. Example:
 
-python
 
-Copy code
 
 for i in range(10):
 
@@ -885,9 +775,6 @@ for i in range(10):
    1. Skips the rest of the code in the current iteration and moves to the next iteration.
    1. Example:
 
-python
-
-Copy code
 
 for i in range(5):
 
@@ -901,9 +788,7 @@ for i in range(5):
    1. Executes after the loop finishes, but **not if the loop ends with a break**.
    1. Example with for:
 
-python
 
-Copy code
 
 for i in range(5):
 
@@ -915,9 +800,7 @@ else:
 
 1. Example with while:
 
-python
 
-Copy code
 
 count = 0
 
@@ -935,9 +818,6 @@ else:
    1. A loop inside another loop.
    1. Example:
 
-python
-
-Copy code
 
 for i in range(3):
 
@@ -955,15 +835,12 @@ for i in range(3):
 
 These loops, combined with control statements (break, continue, and else), provide powerful iteration capabilities in Python.
 
-4o
 
 **You said:**
 
 Conditional statements in python 
 
-**ChatGPT said:**
 
-ChatGPT
 
 Conditional statements in Python are used to execute specific blocks of code based on certain conditions. They help make decisions during program execution.
 
@@ -975,9 +852,7 @@ Conditional statements in Python are used to execute specific blocks of code bas
 
 **Syntax**:
 
-python
 
-Copy code
 
 if condition:
 
@@ -985,9 +860,7 @@ if condition:
 
 **Example**:
 
-python
 
-Copy code
 
 age = 18
 
@@ -1001,9 +874,7 @@ if age >= 18:
 
 **Syntax**:
 
-python
 
-Copy code
 
 if condition:
 
@@ -1015,9 +886,6 @@ else:
 
 **Example**:
 
-python
-
-Copy code
 
 age = 16
 
@@ -1035,9 +903,6 @@ else:
 
 **Syntax**:
 
-python
-
-Copy code
 
 if condition1:
 
@@ -1053,9 +918,7 @@ else:
 
 **Example**:
 
-python
 
-Copy code
 
 score = 85
 
@@ -1077,9 +940,7 @@ else:
 
 **Syntax**:
 
-python
 
-Copy code
 
 if condition1:
 
@@ -1089,9 +950,6 @@ if condition1:
 
 **Example**:
 
-python
-
-Copy code
 
 age = 25
 
@@ -1114,9 +972,7 @@ You can combine conditions using logical operators:
 
 **Examples**:
 
-python
 
-Copy code
 
 \# Using 'and'
 
@@ -1147,17 +1003,13 @@ A shorthand for if-else statements.
 
 **Syntax**:
 
-python
 
-Copy code
 
 result = value\_if\_true if condition else value\_if\_false
 
 **Example**:
 
-python
 
-Copy code
 
 age = 16
 
@@ -1171,9 +1023,7 @@ print(status)  # Output: Minor
 1. **Indentation**: Python relies on proper indentation to define blocks of code within conditional statements.
 1. **Truth Value Testing**: Non-zero numbers, non-empty sequences, and True evaluate to True; 0, None, False, and empty sequences evaluate to False.
 
-python
 
-Copy code
 
 if []:  # An empty list
 
@@ -1181,15 +1031,11 @@ if []:  # An empty list
 
 These conditional statements allow Python programs to make decisions dynamically based on the data or user input.
 
-4o
 
 **You said:**
 
 Switch in python 
 
-**ChatGPT said:**
-
-ChatGPT
 
 Python does not have a built-in switch or case statement like some other languages (e.g., C, Java). However, you can achieve similar functionality using alternative approaches such as:
 
@@ -1200,9 +1046,7 @@ The most straightforward alternative to a switch statement is a series of if-eli
 
 **Example**:
 
-python
 
-Copy code
 
 def switch\_example(value):
 
@@ -1231,9 +1075,7 @@ Dictionaries can emulate a switch statement by mapping keys to corresponding act
 
 **Example with Functions:**
 
-python
 
-Copy code
 
 def one():
 
@@ -1263,9 +1105,7 @@ print(result)  # Output: Two
 
 **Example with Static Values:**
 
-python
 
-Copy code
 
 switch\_dict = {
 
@@ -1290,9 +1130,7 @@ Starting from Python 3.10, the match-case statement provides functionality simil
 
 **Syntax**:
 
-python
 
-Copy code
 
 match value:
 
@@ -1310,9 +1148,6 @@ match value:
 
 **Example**:
 
-python
-
-Copy code
 
 def switch\_example(value):
 
@@ -1351,7 +1186,7 @@ print(switch\_example(2))  # Output: Two
 
 Each method is valid, and your choice depends on your specific requirements and Python version.
 
-4o
+
 
 **You said:**
 
@@ -1470,9 +1305,6 @@ Here’s a checklist of **core Python concepts** to ensure you have a solid foun
 
 - **List Comprehensions**:
 
-python
-
-Copy code
 
 squares = [x\*\*2 for x in range(10)]
 
@@ -1502,17 +1334,13 @@ squares = [x\*\*2 for x in range(10)]
 
 - **Unpacking**:
 
-python
 
-Copy code
 
 a, b, c = (1, 2, 3)
 
 - **Enumerate**:
 
-python
 
-Copy code
 
 for index, value in enumerate(['a', 'b', 'c']):
 
@@ -1520,9 +1348,7 @@ for index, value in enumerate(['a', 'b', 'c']):
 
 - **Zip**:
 
-python
 
-Copy code
 
 list(zip([1, 2, 3], ['a', 'b', 'c']))
 
@@ -1533,9 +1359,7 @@ list(zip([1, 2, 3], ['a', 'b', 'c']))
 
 - **Type Hinting**:
 
-python
 
-Copy code
 
 def add(x: int, y: int) -> int:
 
@@ -1548,15 +1372,11 @@ def add(x: int, y: int) -> int:
 -----
 If any of these are unfamiliar, I can dive deeper into specific topics for you!
 
-4o
+
 
 **You said:**
 
 I need set and frozen set, Function,data structures, exception handling,
-
-**ChatGPT said:**
-
-ChatGPT
 
 Here's a detailed explanation of **sets and frozensets**, **functions**, **data structures**, and **exception handling** in Python:
 
@@ -1575,9 +1395,7 @@ Here's a detailed explanation of **sets and frozensets**, **functions**, **data 
 
 **Creating a Set:**
 
-python
 
-Copy code
 
 \# Creating a set
 
@@ -1595,9 +1413,7 @@ print(duplicate\_set)  # Output: {1, 2, 3}
 
 **Set Operations:**
 
-python
 
-Copy code
 
 A = {1, 2, 3}
 
@@ -1621,9 +1437,7 @@ print(A ^ B)  # Output: {1, 2, 4, 5}
 
 **Set Methods:**
 
-python
 
-Copy code
 
 my\_set.add(6)         # Adds an element
 
@@ -1644,9 +1458,7 @@ my\_set.clear()        # Empties the set
 
 **Creating a Frozenset:**
 
-python
 
-Copy code
 
 \# Creating a frozenset
 
@@ -1664,9 +1476,6 @@ Functions are reusable blocks of code that perform specific tasks.
 
 **Defining a Function:**
 
-python
-
-Copy code
 
 def greet(name):
 
@@ -1678,9 +1487,7 @@ print(greet("Alice"))  # Output: Hello, Alice!
 
 1. **Default Arguments**:
 
-python
 
-Copy code
 
 def greet(name="World"):
 
@@ -1690,9 +1497,7 @@ print(greet())  # Output: Hello, World!
 
 1. **Variable-Length Arguments**:
 
-python
 
-Copy code
 
 def add(\*numbers):
 
@@ -1702,9 +1507,7 @@ print(add(1, 2, 3))  # Output: 6
 
 1. **Keyword Arguments**:
 
-python
 
-Copy code
 
 def profile(\*\*details):
 
@@ -1717,9 +1520,8 @@ profile(name="Alice", age=25)  # Output: name: Alice, age: 25
 1. **Lambda Functions**:
    1. Anonymous functions, useful for short operations.
 
-python
 
-Copy code
+
 
 square = lambda x: x \*\* 2
 
@@ -1733,9 +1535,7 @@ print(square(5))  # Output: 25
 1. **List**:
    1. Ordered, mutable.
 
-python
 
-Copy code
 
 lst = [1, 2, 3]
 
@@ -1744,27 +1544,21 @@ lst.append(4)  # [1, 2, 3, 4]
 1. **Tuple**:
    1. Ordered, immutable.
 
-python
 
-Copy code
 
 tpl = (1, 2, 3)
 
 1. **Set**:
    1. Unordered, mutable, unique elements.
 
-python
 
-Copy code
 
 st = {1, 2, 3}
 
 1. **Dictionary**:
    1. Key-value pairs.
 
-python
 
-Copy code
 
 dct = {"a": 1, "b": 2}
 
@@ -1777,9 +1571,7 @@ Used to handle runtime errors gracefully.
 
 **Syntax:**
 
-python
 
-Copy code
 
 try:
 
@@ -1801,9 +1593,7 @@ finally:
 
 **Raising Exceptions:**
 
-python
 
-Copy code
 
 def check\_age(age):
 
@@ -1818,15 +1608,13 @@ print(check\_age(20))  # Output: Access granted.
 -----
 This covers the requested concepts comprehensively. Let me know if you'd like to explore any topic further!
 
-4o
+
 
 **You said:**
 
 What are the algorithms are there to use dsa
 
-**ChatGPT said:**
 
-ChatGPT
 
 In Data Structures and Algorithms (DSA), various **algorithms** are used to efficiently solve problems by manipulating data structures. Below are some commonly used algorithms categorized by the types of problems they address:
 
@@ -1839,9 +1627,6 @@ These algorithms are used to search for an element in a data structure, typicall
   - Checks each element of the list one by one.
   - Time complexity: **O(n)**.
 
-python
-
-Copy code
 
 def linear\_search(arr, target):
 
@@ -1857,9 +1642,7 @@ def linear\_search(arr, target):
   - Efficient search algorithm for **sorted** lists/arrays, divides the search range in half each time.
   - Time complexity: **O(log n)**.
 
-python
 
-Copy code
 
 def binary\_search(arr, target):
 
@@ -1917,9 +1700,6 @@ Recursion is a technique where a function calls itself in order to break down th
 - **Factorial Calculation**:
   - A classic example of recursion.
 
-python
-
-Copy code
 
 def factorial(n):
 
@@ -1932,9 +1712,6 @@ def factorial(n):
 - **Fibonacci Sequence**:
   - Computes the nth Fibonacci number recursively.
 
-python
-
-Copy code
 
 def fibonacci(n):
 
@@ -1947,9 +1724,7 @@ def fibonacci(n):
 - **Tower of Hanoi**:
   - Solves the classic puzzle using recursion to move disks between pegs.
 
-python
 
-Copy code
 
 def tower\_of\_hanoi(n, from\_peg, to\_peg, aux\_peg):
 
@@ -2059,15 +1834,11 @@ These algorithms don't fit neatly into one category but are used in specific con
 -----
 These are just some examples of common algorithms in DSA. Depending on the problem at hand, different algorithms may be applied for better efficiency.
 
-4o mini
+
 
 **You said:**
 
 Sliding window, two pointers..
-
-**ChatGPT said:**
-
-ChatGPT
 
 The **Sliding Window** and **Two Pointers** techniques are widely used in algorithms to optimize problems, particularly for problems involving arrays or strings. They help reduce time complexity by eliminating the need for nested loops, making it possible to solve problems in linear time or near linear time.
 
@@ -2085,9 +1856,6 @@ The sliding window technique is typically used in problems where you need to exa
 
 **Problem:** Given an array of integers, find the maximum sum of any contiguous subarray of size **K**.
 
-python
-
-Copy code
 
 def max\_sum\_subarray(arr, K):
 
@@ -2147,9 +1915,7 @@ The **Two Pointers** technique involves using two pointers (or indices) to trave
 
 **Problem:** Given an array of integers and a target sum, find if there exists a pair of numbers in the array that adds up to the target sum.
 
-python
 
-Copy code
 
 def has\_pair\_with\_sum(arr, target):
 
@@ -2219,15 +1985,12 @@ print(has\_pair\_with\_sum(arr, target))  # Output: True (pair [2, 10])
 
 Both techniques are highly efficient in solving a variety of problems and reduce time complexity by eliminating nested loops and reducing redundant calculations.
 
-4o mini
 
 **You said:**
 
 Is there any other techniques missed
 
-**ChatGPT said:**
 
-ChatGPT
 
 Yes, there are several other important techniques in algorithm design and problem solving, each useful for specific types of problems. Here's a list of other techniques commonly used in Data Structures and Algorithms (DSA):
 
@@ -2376,24 +2139,18 @@ KMP is an algorithm for finding occurrences of a pattern within a text by using 
 
 These techniques are frequently used across various problems in algorithmic design. Mastering them helps in understanding how to approach and solve problems efficiently.
 
-4o mini
 
 **You said:**
 
 Show me examples for all 
 
-**ChatGPT said:**
-
-ChatGPT
 
 Here are examples for all the techniques previously listed. These will help you understand their practical implementation.
 
 -----
 **1. Divide and Conquer (Merge Sort)**
 
-python
 
-Copy code
 
 def merge\_sort(arr):
 
@@ -2438,9 +2195,7 @@ print(merge\_sort(arr))  # Output: [3, 9, 10, 27, 38, 43, 82]
 -----
 **2. Greedy Algorithm (Activity Selection)**
 
-python
 
-Copy code
 
 def activity\_selection(start, end):
 
@@ -2469,9 +2224,7 @@ print(activity\_selection(start, end))  # Output: [0, 1, 3, 4]
 -----
 **3. Backtracking (N-Queens Problem)**
 
-python
 
-Copy code
 
 def solve\_nqueens(board, col, n):
 
@@ -2532,9 +2285,6 @@ else:
 -----
 **4. Dynamic Programming (Fibonacci)**
 
-python
-
-Copy code
 
 def fibonacci(n):
 
@@ -2553,9 +2303,7 @@ print(fibonacci(10))  # Output: 55
 -----
 **5. Binary Search**
 
-python
 
-Copy code
 
 def binary\_search(arr, target):
 
@@ -2586,9 +2334,7 @@ print(binary\_search(arr, 4))  # Output: 3
 -----
 **6. Topological Sorting (Kahn's Algorithm)**
 
-python
 
-Copy code
 
 from collections import deque
 
@@ -2631,9 +2377,6 @@ print(topological\_sort(vertices, edges))  # Output: ['A', 'B', 'C', 'D']
 -----
 **7. Union-Find (Detect Cycles in Graph)**
 
-python
-
-Copy code
 
 class UnionFind:
 
@@ -2680,9 +2423,7 @@ print("Cycle exists:", cycle)  # Output: True
 -----
 **8. Hashing**
 
-python
 
-Copy code
 
 hash\_map = {}
 
@@ -2695,9 +2436,7 @@ print(hash\_map['key1'])  # Output: 1
 -----
 **9. Bit Manipulation (Count Set Bits)**
 
-python
 
-Copy code
 
 def count\_set\_bits(n):
 
@@ -2716,9 +2455,7 @@ print(count\_set\_bits(5))  # Output: 2 (binary 101)
 -----
 **10. Sliding Window**
 
-python
 
-Copy code
 
 def max\_sliding\_window(nums, k):
 
@@ -2749,5 +2486,3 @@ nums = [1, 3, -1, -3, 5, 3, 6, 7]
 print(max\_sliding\_window(nums, 3))  # Output: [3, 3, 5, 5, 6, 7]
 
 -----
-Would you like me to continue with the remaining techniques (Trie, Binary Indexed Tree, etc.)?
-
